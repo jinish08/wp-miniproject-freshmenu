@@ -69,47 +69,47 @@ const MCsecond = () => {
       <Slider {...settings}>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Rice</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Noodles</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Biryani</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Keto</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Pasta</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Sides</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Sandwitches</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Burgers</p>
           </Link>
         </div>
         <div className="carousel-img hovereffect">
           <Link to="/" className="link">
-            <p className="text-center link-p">Hello</p>
+            <p className="text-center link-p">Desserts</p>
           </Link>
         </div>
       </Slider>

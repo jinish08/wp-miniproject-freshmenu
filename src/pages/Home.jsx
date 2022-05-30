@@ -36,6 +36,7 @@ const Home = () => {
                   name={product.name}
                   cost={product.price}
                   veg={product.veg}
+                  id={product.id}
                 />
               ))}
             </div>

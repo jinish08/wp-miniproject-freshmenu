@@ -1,14 +1,14 @@
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-import { getFirestore } from 'firebase/firestore';
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-	apiKey: 'AIzaSyDck_DSWiPc_VFo1jQm647h2N_ulMbUMC0',
-	authDomain: 'freshmenu-7359f.firebaseapp.com',
-	projectId: 'freshmenu-7359f',
-	storageBucket: 'freshmenu-7359f.appspot.com',
-	messagingSenderId: '708739950612',
-	appId: '1:708739950612:web:65dc3b0da0d6e6beee5f01',
+  apiKey: process.env.REACT_APP_APIKEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
