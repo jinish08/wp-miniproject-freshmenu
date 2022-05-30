@@ -26,10 +26,9 @@ function Navbar() {
                 <NavLink className="navbar-brand" to="/">
                   <img
                     style={{ width: "100%" }}
-                    className="logo"
+                    className="logo fixed-logo"
                     src="https://www.freshmenu.com/images/fm-header-logo.svg"
                     alt="phonics-logo"
-                    class="fixed-logo"
                   />
                 </NavLink>
                 <div>
@@ -113,7 +112,7 @@ function Navbar() {
               <MCsecond />
               <div className="d-flex flex-row">
                 <div className="p-2 m-3 mx-4 hovereffect">
-                  <i class="fas fa-headset fa-lg pt-2"></i>
+                  <i className="fas fa-headset fa-lg pt-2"></i>
                 </div>
                 <div className="p-2 m-3 mx-3 search  hovereffect">
                   <span className="p-2">

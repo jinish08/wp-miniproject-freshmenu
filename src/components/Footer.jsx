@@ -1,99 +1,100 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div class="container">
+    <div className="container">
       <br />
       <hr />
-      <footer class="py-5">
-        <div class="row">
-          <div class="col-2">
+      <footer className="py-5">
+        <div className="row">
+          <div className="col-2">
             <h6>COMPANY</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   FAQ
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   About
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Careers
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div class="col-2">
+          <div className="col-2">
             <h6>HELP & CONTACT</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Help Center
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Email Us
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   080-4042-4242
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div class="col-2">
+          <div className="col-2">
             <h6>MORE FROM US</h6>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+            <ul className="nav flex-column">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Bulk/Party Order
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Cake Order
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   FreshClub
-                </a>
+                </Link>
               </li>
-              <li class="nav-item mb-2">
-                <a href="#" class="nav-link p-0 text-muted">
+              <li className="nav-item mb-2">
+                <Link to="/" className="nav-link p-0 text-muted">
                   Offers
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div class="col-4 offset-1">
+          <div className="col-4 offset-1">
             <form>
               <p>SUBSCRIBE TO OUR DROOLWORTHY NEWSLETTER</p>
-              <div class="d-flex w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">
+              <div className="d-flex w-100 gap-2">
+                <label htmlFor="newsletter1" className="visually-hidden">
                   Email address
                 </label>
                 <input
                   id="newsletter1"
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Email address"
                 />
-                <button class="btn btn-primary" type="button">
+                <button className="btn btn-primary" type="button">
                   Subscribe
                 </button>
               </div>
@@ -101,31 +102,31 @@ const Footer = () => {
           </div>
         </div>
 
-        <div class="d-flex justify-content-between py-4 my-4 border-top">
+        <div className="d-flex justify-content-between py-4 my-4 border-top">
           <p>© 2021 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3">
-              <a class="link-dark" href="#">
+          <ul className="list-unstyled d-flex">
+            <li className="ms-3">
+              <Link className="link-dark" to="/">
                 <img
                   src="https://img.icons8.com/ios-filled/344/facebook-new.png"
                   height={"24px"}
                   width={"24px"}
                   alt="icon"
                 />
-              </a>
+              </Link>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#">
+            <li className="ms-3">
+              <Link className="link-dark" to="/">
                 <img
                   src="https://img.icons8.com/ios-glyphs/344/twitter--v1.png"
                   height={"24px"}
                   width={"24px"}
                   alt="icon"
                 />
-              </a>
+              </Link>
             </li>
-            <li class="ms-3">
-              <a class="link-dark" href="#">
+            <li className="ms-3">
+              <Link className="link-dark" to="/">
                 <img
                   src="	https://img.icons8.com/ios/2x/instagram.png
                   "
@@ -133,7 +134,7 @@ const Footer = () => {
                   width={"24px"}
                   alt="icon"
                 />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

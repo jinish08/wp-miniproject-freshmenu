@@ -10,7 +10,7 @@ const MCsecond = () => {
     return (
       <div className={className} onClick={onClick}>
         <i
-          class="fas fa-chevron-right"
+          className="fas fa-chevron-right"
           style={{ color: "rgb(168, 165, 165)", fontSize: "1rem" }}
         ></i>
       </div>
@@ -22,7 +22,7 @@ const MCsecond = () => {
     return (
       <div className={className} onClick={onClick}>
         <i
-          class="fas fa-chevron-left"
+          className="fas fa-chevron-left"
           style={{ color: "rgb(168, 165, 165)", fontSize: "1rem" }}
         ></i>
       </div>

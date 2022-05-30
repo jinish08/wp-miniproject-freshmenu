@@ -20,6 +20,7 @@ const Home = () => {
     };
 
     getProducts();
+    // eslint-disable-next-line
   }, []);
 
   return (
@@ -31,6 +32,7 @@ const Home = () => {
             <div className="row">
               {products?.map((product) => (
                 <DetailCard
+                  key={product.id}
                   topContent={product.calories}
                   img={product.img}
                   name={product.name}

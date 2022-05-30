@@ -19,7 +19,7 @@ const ProductDetails = () => {
       }
     };
     getProduct();
-  }, []);
+  }, [productId]);
 
   return (
     <>
